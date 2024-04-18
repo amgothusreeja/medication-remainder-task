@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#medicationForm {
+    margin-bottom: 20px;
+}
+
+#medicationForm input, #medicationForm button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#medicationForm button {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+}
+
+#medicationForm button:hover {
+    background-color: #4cae4c;
+}
+
+#medicationList li {
+    list-style-type: none;
+    background-color: #eee;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
